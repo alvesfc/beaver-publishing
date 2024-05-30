@@ -8,7 +8,6 @@ plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin.
     alias(libs.plugins.jvm)
 
-    id("nebula.release")
     id("nebula.maven-nebula-publish")
     id("nebula.contacts")
     id("com.github.ben-manes.versions")
